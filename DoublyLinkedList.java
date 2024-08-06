@@ -64,28 +64,24 @@ class ListNode {
 			System.out.print("<-"+temp.data + "->");
 			temp = temp.next;
 		}
+		System.out.println();
 	}
 }
 class DoublyLinkedList {
 	public static void main(String args[]) {
 		ListNode n1 = new ListNode(2);
 		n1.print();
-		System.out.println();
 
 		n1 = n1.insert(1, 1);
 		n1.print();
-		System.out.println();
 
 		n1 = n1.insert(3, 3);
 		n1.print();
-		System.out.println();
 
 		n1 = n1.insert(4, 4);
 		n1.print();
-		System.out.println();
 
 		n1 = n1.delete(3);
 		n1.print();
-		System.out.println();
 	}
 }
